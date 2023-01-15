@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1E78B71A-1BD2-4825-8CFD-532FCD52D688"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4C7549D-F87A-4C28-8978-7C24741C2D1E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoUnitTestTests/DemoUnitTestTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "tearDownWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
