@@ -9,17 +9,20 @@ import XCTest
 @testable import DemoUnitTest
 
 final class DemoUnitTestTests: XCTestCase {
+    
+    var sut: ViewController!
 
     override func setUpWithError() throws {
         try super.setUpWithError()
+        sut = ViewController()
     }
 
     override func tearDownWithError() throws {
+        sut = nil
         try super.tearDownWithError()
     }
     
     func testLowestVolumeSouldBeZero() {
-        let sut = ViewController()
         sut.setVolume(value: -100)
         
         let volume = sut.volume
@@ -27,7 +30,6 @@ final class DemoUnitTestTests: XCTestCase {
     }
     
     func testHighestVolumeShouldBeHundred() {
-        let sut = ViewController()
         sut.setVolume(value: 200)
         
         let volume = sut.volume
